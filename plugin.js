@@ -9,6 +9,7 @@ import Box from "./components/box.vue";
 import PageHeader from "./components/page-header.vue";
 import Notification from "./components/notification";
 
+import VueRichTextRenderer from "@marvr/storyblok-rich-text-vue-renderer";
 import InlineNotification from "./components/inline-notification";
 import Paragraph from "./components/paragraph";
 import PrettyButton from "./components/pretty-button";
@@ -26,6 +27,7 @@ Vue.component("box", Box);
 Vue.component("page-header", PageHeader);
 Vue.component("notification", Notification);
 
+Vue.use(VueRichTextRenderer);
 Vue.component("inline-notification", InlineNotification);
 Vue.component("paragraph", Paragraph);
 Vue.component("pretty-button", PrettyButton);

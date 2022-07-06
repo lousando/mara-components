@@ -9,8 +9,9 @@
   "author": "Louis Sandoval",
   "license": "MIT",
   "peerDependencies": {
+    "@marvr/storyblok-rich-text-vue-renderer": "^2",
     "emailjs-com": "^3.2",
     "jdenticon": "^3.1",
-    "vue": "^2.6"
+    "nuxt": "^2.15"
   }
 }
