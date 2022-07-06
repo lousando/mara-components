@@ -1,0 +1,14 @@
+{
+  "name": "@mara/components",
+  "version": "1.0.0",
+  "description": "A bunch of Vue components used throughout the MARA sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louis Sandoval",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6"
+  }
+}
