@@ -9,6 +9,8 @@
   "author": "Louis Sandoval",
   "license": "MIT",
   "peerDependencies": {
+    "emailjs-com": "^3.2",
+    "jdenticon": "^3.1",
     "vue": "^2.6"
   }
 }
